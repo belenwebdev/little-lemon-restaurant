@@ -1,15 +1,19 @@
-* {
+@import 'variables';
+
+*{
   box-sizing: border-box;
   margin-top: 0;
 }
 
 :root {
-  font-family: "Karla", sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,17 +28,16 @@ document {
 
 a {
   font-weight: 500;
-  color: #495E57;
+  color: $green;
   text-decoration: inherit;
 }
-
 a:hover {
-  color: #333333;
+  color: $dark;
 }
 
 body {
   margin: 0;
-  top: 0;
+  top:0
 }
 
 h1 {
@@ -49,18 +52,16 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #F4CE14;
-  color: #495E57;
+  background-color: $yellow;
+  color: $green;
   cursor: pointer;
   transition: border-color 0.25s;
   font-weight: bold;
 }
-
 button:hover {
-  border-color: #495E57;
-  color: #333333;
+  border-color: $green;
+  color: $dark;
 }
-
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
@@ -72,10 +73,10 @@ button:focus-visible {
 }
 
 h1, h2 {
-  font-family: "Markazi Text", serif;
+  font-family: 'Markazi Text', serif;
 }
 
-h1 {
+h1{
   font-size: 64pt;
   margin-bottom: 0;
 }
@@ -83,4 +84,4 @@ h1 {
 h2 {
   font-size: 40pt;
   margin-top: 0;
-}/*# sourceMappingURL=index.css.map */
+}
