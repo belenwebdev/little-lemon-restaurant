@@ -1,5 +1,35 @@
-nav{
-    background-color: #495E57;
-    color: white;
-    
+nav {
+    padding: 15px;
+}
+
+nav .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #495E57;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav ul{
+    list-style: none;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:not(:last-of-type){
+    margin-right: 25px;
+}
+
+nav img{
+    max-height: 40px;
 }
